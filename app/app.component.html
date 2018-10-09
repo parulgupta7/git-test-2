@@ -1,0 +1,8 @@
+<h3>All Customers</h3>
+<table>
+  <tr><th>ID</th> <th>Customer Name</th><th>Customer Address</th></tr>
+  <tr *ngFor="let customer of allCustomers">
+    <td>{{customer.id}}</td><td>{{customer.name}}</td><td>{{customer.addr}}</td>
+
+  </tr>
+</table>
